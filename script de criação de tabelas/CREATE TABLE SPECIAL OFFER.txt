@@ -1,0 +1,7 @@
+CREATE TABLE sollim.special_offer(
+special_offer_id INT,
+product_id INT,
+rowguid VARCHAR(100),
+modified_date DATE,
+CONSTRAINT PK_special_offer PRIMARY KEY(special_offer_id) 
+)

@@ -1,0 +1,14 @@
+CREATE TABLE sales_detail (
+    sales_order_id INT,
+    sales_order_detail_id INT,
+    carrier_tracking_number VARCHAR(20),
+    order_qtd INT,
+    product_id INT,
+    special_offer_id INT,
+    unit_price DECIMAL,
+    unit_price_discount DECIMAL,
+    line_total DECIMAL,
+    rowguid VARCHAR(100),
+    modified_date DATE,
+	CONSTRAINT PK_sales_detail PRIMARY KEY(sales_order_id)
+);

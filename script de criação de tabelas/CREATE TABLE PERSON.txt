@@ -1,0 +1,15 @@
+CREATE TABLE sollim.person(
+business_entity_id int,
+person_type VARCHAR(10),
+name_style VARCHAR(10),
+title VARCHAR(10),
+first_name VARCHAR(50),
+middle_name VARCHAR(50),
+last_name VARCHAR(50),
+suffix VARCHAR(10),
+email_promotion INT,
+additional_contact_info TEXT,
+demographics text,
+rowguid VARCHAR(100),
+CONSTRAINT PK_person PRIMARY KEY(business_entity_id)
+)

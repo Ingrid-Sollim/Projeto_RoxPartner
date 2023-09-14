@@ -1,0 +1,12 @@
+--CREATE SCHEMA sollim
+--Create customer table
+CREATE TABLE sollim.customer (
+customer_id INT, 
+person_id INT,
+store_id INT,
+territory_id INT,
+account_number VARCHAR(30),
+rowguid VARCHAR(100),
+modified_date DATETIME,
+CONSTRAINT PK_customer PRIMARY KEY(customer_id)
+)
